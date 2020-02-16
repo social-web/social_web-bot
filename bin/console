@@ -1,0 +1,10 @@
+#!/usr/bin/env ruby
+
+require 'bundler/setup'
+require 'dotenv/load'
+require 'activity_streams'
+require 'social_web/boot'
+
+SocialWeb.start!
+
+binding.irb
